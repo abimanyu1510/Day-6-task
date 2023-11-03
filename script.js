@@ -17,19 +17,18 @@ console.log(person1.salary);
 //-------------------------------
 //4.write a class to calculate the uber price.
 
-// class Uber{
-//     constructor(kilometer){
-//         this.kilometer= kilometer; 
-//     }
-//     set price(n){
-//      this._price=n;
-//     }
-//     get price(){
-//     return this._price
-// }
-// }
-//  uberprice=new Uber(6);
-// console.log(uberprice.price)
+ class Uber{
+  constructor(kilometer,price=25){
+        this.kilometer= kilometer; 
+        this.price=price;
+}
+get Price(){
+    return this.kilometer*this.price
+}
+ }
+ var uberprice=new Uber(5);
+ var uberprice2=new Uber(4,59)
+console.log(uberprice.Price);
 //----------------------------------------------------
 class Circle{
     constructor(radius,color){
