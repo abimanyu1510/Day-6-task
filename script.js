@@ -29,6 +29,7 @@ get Price(){
  var uberprice=new Uber(5);
  var uberprice2=new Uber(4,59)
 console.log(uberprice.Price);
+console.log(uberprice2.Price)
 //----------------------------------------------------
 class Circle{
     constructor(radius,color){
